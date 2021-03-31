@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: hsl(0, 100%, 74%); 
+    background-image:url('../images/bg-intro-desktop.png');
+    background-size: cover; 
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+.font1{
+    color:hsl(246, 25%, 77%);
+}
+.font2{
+    color: red;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    text-align: left;
+    margin-left: 30px;    
+}
+.content-left h1{
+    color: #fff;
+    font-size: 36px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: 'Poppins', sans-serif;
+    /* text-align: left; */
+    font-weight: 700;
+    margin-left: 50px;   
+}
+.content-left p{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    Font-size: 16px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* text-align: left; */
+    padding: 25px;
+    margin-left: 30px;
+    font-weight: 400;
+}
+
+.content-box{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    font-weight: 900;
+}
+.content-box .box{
+    margin: 40px 200px 10px 20px;
+    background-color:  hsl(248, 32%, 49%);
+    box-shadow: 1px 10px 21px 0px rgba(62,60,73,0.62);
+-webkit-box-shadow: 1px 10px 21px 0px rgba(62,60,73,0.62);
+-moz-box-shadow: 1px 10px 21px 0px rgba(62,60,73,0.62);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.content-box .box-1{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px 200px 30px 20px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 35vw;
+    height: 75vh;
+    box-shadow: 1px 10px 21px 0px rgba(62,60,73,0.62);
+    -webkit-box-shadow: 1px 10px 21px 0px rgba(62,60,73,0.62);
+    -moz-box-shadow: 1px 10px 21px 0px rgba(62,60,73,0.62);
+}
+
+.content-box .box-1 form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+input[type=text], [type=email] , [type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 35px;
+}
+
+
+
+.content-box .box-1 form button{
+    color: #fff;
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    background-color: hsl(154, 59%, 51%);
+    outline: none;
+    border: none ;
+    border-radius: 6px;
+    cursor: pointer;
+   
+}
+.content-box .box-1 form button:hover{
+    box-shadow: 1px 10px 21px 0px rgba(62,60,73,0.62);
+    -webkit-box-shadow: 1px 10px 21px 0px rgba(62,60,73,0.62);
+    -moz-box-shadow: 1px 10px 21px 0px rgba(62,60,73,0.62); 
+}
+.content-box .box-1 form p{
+    color: hsl(246, 25%, 77%);
+    margin-top: 8px;
+    font-size: 10px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color:hsl(248, 32%, 49%)
+}
